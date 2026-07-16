@@ -1,0 +1,9 @@
+torch>=2.2.0
+numpy>=1.24
+matplotlib>=3.7
+tqdm>=4.66
+safetensors>=0.4.0
+
+# optional: pip install tiktoken for real GPT-2 BPE tokenization
+# (ssm_lab.data.tokenizer.GPT2Tokenizer) instead of the zero-dependency
+# byte-level default -- see docs/scaling_up.md

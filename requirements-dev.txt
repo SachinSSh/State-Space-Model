@@ -1,0 +1,6 @@
+-r requirements.txt
+pytest>=7.4
+nbformat>=5.9
+jupytext>=1.16
+nbclient>=0.9
+ipykernel>=6.29

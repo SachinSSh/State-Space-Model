@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data / checkpoints / logs (regenerate, don't commit)
+results/*.pt
+results/*.ckpt
+data/
+checkpoints/
+artifacts/
+wandb/
+*.log
+
+# OS
+.DS_Store
+
+# Notebook outputs kept out of version control by default; the notebooks
+# themselves are committed with outputs cleared (see docs/how_to_add_a_model.md)
