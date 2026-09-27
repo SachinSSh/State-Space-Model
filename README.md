@@ -8,7 +8,7 @@
 <p align="center">
   <img alt="Python" src="https://img.shields.io/badge/python-3.10+-blue.svg">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
-  <img alt="Tests" src="https://github.com/YOUR_USERNAME/state-space-models/actions/workflows/tests.yml/badge.svg">
+  <img alt="Tests" src="https://github.com/SachinSSh/State-Space-Model/actions/workflows/tests.yml/badge.svg">
   <img alt="Models" src="https://img.shields.io/badge/models-2%2F14%20shipped-orange.svg">
 </p>
 
@@ -293,7 +293,7 @@ Full guide, including pointing this at WikiText-103 or a FineWeb-Edu shard inste
 
 A repo that only produces loss curves hasn't really answered "does this work."
 
-So this repo trains, and a **separate, independent project** — [`ssm-infer`](https://github.com/YOUR_USERNAME/ssm-infer) — serves.
+So this repo trains, and a **separate, independent project** — [`ssm-infer`](https://github.com/SachinSSh/ssm-infer) — serves.
 
 Two repos, not two folders. Training code optimizes for flexibility: fourteen architectures behind a registry, full optimizer/RNG state, resumability. Serving code optimizes for a small, auditable footprint. It shouldn't need to import a research package just to run a forward pass.
 
@@ -432,7 +432,7 @@ jupyter notebook notebooks/00_setup_and_smoke_test.ipynb
 
 **Just want to generate text, not train anything?**
 
-Go straight to [`ssm-infer`](https://github.com/YOUR_USERNAME/ssm-infer) — it ships a trained model.
+Go straight to [`ssm-infer`](https://github.com/SachinSSh/ssm-infer) — it ships a trained model.
 
 ## Roadmap
 
@@ -494,6 +494,3 @@ Load-bearing papers referenced above:
 
 MIT — see [`LICENSE`](LICENSE).
 
----
-
-<sub>Originally named "state spaced models" (typo). Worth fixing to `state-space-models` before this is resume-facing — GitHub redirects the old URL automatically once renamed.</sub>
