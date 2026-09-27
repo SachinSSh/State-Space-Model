@@ -1,4 +1,7 @@
 """
+
+Author: SachinSSh
+
 S4D -- diagonal state space layer.
 
 Reference: Gu, Gupta, Goel & Re, "On the Parameterization and Initialization

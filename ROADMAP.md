@@ -41,12 +41,3 @@ for adding each one: `docs/how_to_add_a_model.md`.
 (2026's decoupled erase/write refinement), HyenaDNA/Caduceus (genomics
 track), full LRA (Text/Retrieval/Image/Pathfinder).
 
-## Suggested build order for the next session
-
-Mamba (model 3) next. It's the first model in the roadmap that needs
-`ssm_lab.utils.scan` extended to accept an input-dependent `a_t` — both
-S4D and S5 use the scan with a *constant* `a_t`, so Mamba's selective
-scan is genuinely new ground, not a variation on what's already tested.
-Expect this to be the model that finally moves the MQAR/induction-heads
-numbers (see `docs/02_s5.md`'s results table for the baseline it needs
-to beat).
